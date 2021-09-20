@@ -47,6 +47,14 @@
     font-size: 26px;
 }
 
+.loginBtn {
+    font-size: 22px;
+    background-color: wheat;
+    color: black;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
 .logoContainer {
     display: flex;
     align-items: center;
