@@ -15,10 +15,10 @@ export default function Home({ products }) {
     <div>
       <Header />
       <Banner />
-      {/* <HomePage products={products} /> */}
+      <HomePage products={products} />
 
     </div>
   );
 }
 
-// import HomePage from "../src/view/HomePage/HomePage";
+import HomePage from "../src/view/HomePage/HomePage";
