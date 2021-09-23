@@ -16,7 +16,6 @@ export default function Home({ products }) {
       <Header />
       <Banner />
       <HomePage products={products} />
-
     </div>
   );
 }
