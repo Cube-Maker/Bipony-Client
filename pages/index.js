@@ -2,7 +2,7 @@ import Header from "../src/layout/Header";
 import Banner from "../src/view/HomePage/component/Banner/Banner";
 
 export const getStaticProps = async () => {
-  const res = await fetch("https://fakestoreapi.com/products");
+  const res = await fetch("http://localhost:4000/data");
   const data = await res.json();
 
   return {
