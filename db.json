@@ -1,0 +1,549 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "A5 Pro",
+      "description": "Umidigi A5 Pro - 6.3 inches FHD - Android 9 Pie - 4GB RAM - 32GB ROM - Triple Camera",
+      "category": "mobile",
+      "price": 9999,
+      "image": "https://i.ibb.co/545DGyT/20.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Mi 8 pro",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 19999,
+      "image": "https://i.ibb.co/601Jz06/18.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Realme Narzo",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 22999,
+      "image": "https://i.ibb.co/4RWVBpN/19.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Narzo 30",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 21999,
+      "image": "https://i.ibb.co/xhHdWgK/17.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Galaxy M21",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 19799,
+      "image": "https://i.ibb.co/5vBmCgB/16.png"
+    },
+    {
+      "id": 6,
+      "title": "Realme 8 Pro",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 18799,
+      "image": "https://i.ibb.co/9p329bk/15.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Realme 2 Pro",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 21200,
+      "image": "https://i.ibb.co/LtZq8LB/14.jpg"
+    },
+    {
+      "id": 8,
+      "title": "OUKITEL WP8",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 14999,
+      "image": "https://i.ibb.co/pdqFQ6t/13.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Realme C21",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 10686,
+      "image": "https://i.ibb.co/9c7cM7c/12.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Motorola G30",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 19299,
+      "image": "https://i.ibb.co/jTVSd08/11.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Oppo F19",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 21299,
+      "image": "https://i.ibb.co/LPhPfym/10.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Motorola G9",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 21299,
+      "image": "https://i.ibb.co/VSXWGQP/9.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Motorola G8",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 21299,
+      "image": "https://i.ibb.co/RDWZb31/8.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Motorola G9+",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 26499,
+      "image": "https://i.ibb.co/xJyfbnK/7.png"
+    },
+    {
+      "id": 15,
+      "title": "Infinix Hot 10",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 12999,
+      "image": "https://i.ibb.co/3TjKF2Z/6.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Walton Primo",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 12999,
+      "image": "https://i.ibb.co/mtV1gQg/5.png"
+    },
+    {
+      "id": 17,
+      "title": "Walton Primo",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 9499,
+      "image": "https://i.ibb.co/tDWKjdQ/4.png"
+    },
+    {
+      "id": 18,
+      "title": "OPPO A54",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 18490,
+      "image": "https://i.ibb.co/LJyMQt6/1.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Mi 8 Lite",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 20000,
+      "image": "https://i.ibb.co/8xWXV64/3.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Huawei Y7",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "mobile",
+      "price": 14700,
+      "image": "https://i.ibb.co/hyhfGyY/2.jpg"
+    },
+
+    {
+      "id": 20,
+      "title": "Dell Laptop",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/mqL8ZNm/Lg-laptop.jpg"
+    },
+    {
+      "id": 20,
+      "title": "lenevo",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/R7L0b0K/msi-Gaming.jpg"
+    },
+    {
+      "id": 20,
+      "title": "lenevo 320",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/ZMgLmSb/Lenovo-pavillion320.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Dell Vsostro",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/8PVw7nW/Lenevo-ideabook.png"
+    },
+    {
+      "id": 20,
+      "title": "Dell inspiron",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/98ppVj8/Lenevo-15nrq.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Think pad",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/s2Mh2Xm/hp-pavillion.png"
+    },
+    {
+      "id": 20,
+      "title": "Lenvo ideapad",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/nBnXQMs/hp-pavillion-15.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Sony laptop",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/JRmMQ9j/hp-alite.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Lenvo ideapad",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/PtdQ8Zs/Dell-vostro.png"
+    },
+    {
+      "id": 20,
+      "title": "Dell pavillion",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/TMXCWnh/dell-pavillion.png"
+    },
+    {
+      "id": 20,
+      "title": "Chuwi",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/6vFsRCn/chuwi.jpg"
+    },
+    {
+      "id": 20,
+      "title": "chrome book",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/vvhvfyQ/chromebook.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Avita",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/r29wWBf/Avita.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Avita laptop",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/MDXBhvq/Aviata-laptop.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Asus Zenbook",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/19SZj3L/asus-zenbook-15.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Asus Zenbook 2",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "laptop",
+      "price": 14700,
+      "image": "https://i.ibb.co/N2vwSrf/Asus-zenbook.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Mosur dal",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/4mxwDFF/20.webp"
+    },
+    {
+      "id": 20,
+      "title": "Milk",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/zsjt0xp/19.webp"
+    },
+    {
+      "id": 20,
+      "title": "Milk powder",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/THHy0MG/18.webp"
+    },
+    {
+      "id": 20,
+      "title": "Milk powder",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/THHy0MG/18.webp"
+    },
+    {
+      "id": 20,
+      "title": "Rice",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/fktvsKK/17.webp"
+    },
+    {
+      "id": 20,
+      "title": "Pran ghee",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/fdwrYHp/16.webp"
+    },
+    {
+      "id": 20,
+      "title": "potato",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/nzbbF87/15.webp"
+    },
+    {
+      "id": 20,
+      "title": "Oil",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/yy6YWgb/14.webp"
+    },
+    {
+      "id": 20,
+      "title": "Pran juice",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/b7XvtYS/13.webp"
+    },
+    {
+      "id": 20,
+      "title": "juice",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/nzbbF87/15.webp"
+    },
+    {
+      "id": 20,
+      "title": "juice",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/LzwbhJX/11.webp"
+    },
+    {
+      "id": 20,
+      "title": "fruits",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/h7Wg5Ys/10.webp"
+    },
+    {
+      "id": 20,
+      "title": "Mango",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/s5Wn3fc/9.webp"
+    },
+    {
+      "id": 20,
+      "title": "Pran Rice",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/S7dwMPJ/8.webp"
+    },
+    {
+      "id": 20,
+      "title": "Pran Rice",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/S7dwMPJ/8.webp"
+    },
+    {
+      "id": 20,
+      "title": "Shampo",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/1btJDvV/7.webp"
+    },
+    {
+      "id": 20,
+      "title": "Tea",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "grocery",
+      "price": 14700,
+      "image": "https://i.ibb.co/CstTXrk/3.webp"
+    },
+    {
+      "id": 20,
+      "title": "Suzuki gsx",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/2yL3dCx/XSR155cc.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Tvs radeon",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/GdVKdyK/TVSradeon.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Apache",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/Rc7XpPh/TVSapache-RTR.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Apache",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/xF1mzLP/suzuki-gsx125.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Runner Xstreet",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/X76x9j7/Runner-Xtreet.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Runner Xstreet",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/44g82LK/Runner-Moto-Turbo.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Runner Turbo",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/44g82LK/Runner-Moto-Turbo.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Hunk",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/GMkSNZS/Hunk150.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Hunk 150",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/GMkSNZS/Hunk150.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Honda CBR150",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/KzYkgH1/honda-CBR150.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Hero Glamout",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/54jjbxh/Hero-Glamour.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Bajaj Pulsar",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/XpQQVyF/bajaj-pulsar-NS60.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Bajaj Platina",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/mXsSg6n/bajaj-platina-150.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Bajaj Platina150",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/5LJFpHM/Bajaj-Pulsar.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Apprilla",
+      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
+      "category": "bike",
+      "price": 14700,
+      "image": "https://i.ibb.co/LtxcXKs/Aprilla-FX150.jpg"
+    }
+  ]
+}
