@@ -1,65 +1,137 @@
 import style from "./product.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartPlus, faUserCircle } from "@fortawesome/free-solid-svg-icons";
 const Product = ({ products }) => {
   return (
-    <section className="container mx-auto">
-      <div className="my-32">
-        <h3 className="mb-8 text-bold text-2xl">Mobile</h3>
-        <div className={style.productScroll}>
+    <section className="bg-gray-100">
+      {/* Mobile category Product */}
+      <div className="py-16 container mx-auto">
+        <h3 className="mb-8 text-bold text-3xl">Mobile</h3>
+        {/* Single Product */}
+        <div className="grid grid-cols-6">
           {products
             .filter((product) => product.category === "mobile")
             .map((product) => (
-              <div key="product.id" className={style.singleProduct}>
-                <img className={style.img} src={product.image} />
-                <h4>{product.title}</h4>
-                <span className="flex">
-                  <div>
-                    <p>{product.price}</p>
-                  </div>
-                  <div>
-                    <p>cart</p>
-                  </div>
-                </span>
+              <div
+                key="product.id"
+                className="text-center border-solid border-black m-2  rounded bg-white"
+              >
+                <img width="300" className="p-6" src={product.image} />
+                <div className="bg-gray-200 p-2">
+                  <h4 className="text-bold text-xl">{product.title}</h4>
+                  <span className="flex justify-evenly">
+                    <div>
+                      <h4>{product.price} &#2547;</h4>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <FontAwesomeIcon
+                          className={style.icon}
+                          icon={faCartPlus}
+                        />
+                      </a>
+                    </div>
+                  </span>
+                </div>
               </div>
             ))}
         </div>
       </div>
-      <div className="my-32">
-        <h3 className="mb-8 text-bold text-2xl">Laptop</h3>
-        <div className={style.productScroll}>
+      {/* Laptop category Product */}
+      <div className="py-16 container mx-auto">
+        <h3 className="mb-8 text-bold text-3xl">Laptop</h3>
+        {/* Single Product */}
+        <div className="grid grid-cols-6">
           {products
             .filter((product) => product.category === "laptop")
             .map((product) => (
-              <div key="product.id" className={style.singleProduct}>
-                <img className="w-full object-center" src={product.image} />
-                <h4>{product.title}</h4>
+              <div
+                key="product.id"
+                className="text-center border-solid border-black m-2  rounded bg-white"
+              >
+                <img width="300" className="p-6" src={product.image} />
+                <div className="bg-gray-200 p-2">
+                  <h4 className="text-bold text-xl">{product.title}</h4>
+                  <span className="flex justify-evenly">
+                    <div>
+                      <h4>{product.price} &#2547;</h4>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <FontAwesomeIcon
+                          className={style.icon}
+                          icon={faCartPlus}
+                        />
+                      </a>
+                    </div>
+                  </span>
+                </div>
               </div>
             ))}
         </div>
       </div>
-
-      <div className="my-32">
-        <h3 className="mb-8 text-bold text-2xl">Grocery</h3>
-        <div className={style.productScroll}>
+      {/* Grocery category Product */}
+      <div className="py-16 container mx-auto">
+        <h3 className="mb-8 text-bold text-3xl">grocery</h3>
+        {/* Single Product */}
+        <div className="grid grid-cols-6">
           {products
             .filter((product) => product.category === "grocery")
             .map((product) => (
-              <div key="product.id" className={style.singleProduct}>
-                <img className="w-48 object-center" src={product.image} />
-                <h4>{product.title}</h4>
+              <div
+                key="product.id"
+                className="text-center border-solid border-black m-2  rounded bg-white"
+              >
+                <img width="300" className="p-6" src={product.image} />
+                <div className="bg-gray-200 p-2">
+                  <h4 className="text-bold text-xl">{product.title}</h4>
+                  <span className="flex justify-evenly">
+                    <div>
+                      <h4>{product.price} &#2547;</h4>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <FontAwesomeIcon
+                          className={style.icon}
+                          icon={faCartPlus}
+                        />
+                      </a>
+                    </div>
+                  </span>
+                </div>
               </div>
             ))}
         </div>
       </div>
-
-      <div className="my-32">
-        <h3 className="mb-8 text-bold text-2xl">Motor Cycle</h3>
-        <div className={style.productScroll}>
+      {/* Bike category Product */}
+      <div className="py-16 container mx-auto">
+        <h3 className="mb-8 text-bold text-3xl">Motor Cycle</h3>
+        {/* Single Product */}
+        <div className="grid grid-cols-6">
           {products
             .filter((product) => product.category === "bike")
             .map((product) => (
-              <div key="product.id" className={style.singleProduct}>
-                <img className="w-48 object-center" src={product.image} />
-                <h4>{product.title}</h4>
+              <div
+                key="product.id"
+                className="text-center border-solid border-black m-2  rounded bg-white"
+              >
+                <img width="300" className="p-6" src={product.image} />
+                <div className="bg-gray-200 p-2">
+                  <h4 className="text-bold text-xl">{product.title}</h4>
+                  <span className="flex justify-evenly">
+                    <div>
+                      <h4>{product.price} &#2547;</h4>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <FontAwesomeIcon
+                          className={style.icon}
+                          icon={faCartPlus}
+                        />
+                      </a>
+                    </div>
+                  </span>
+                </div>
               </div>
             ))}
         </div>
