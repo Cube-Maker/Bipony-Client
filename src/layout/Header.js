@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Header.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartPlus, faUserCircle } from '@fortawesome/free-solid-svg-icons'
+import { faCartPlus, faUserCircle, faSignInAlt } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
     return (
@@ -25,7 +25,7 @@ export default function Header() {
                         <FontAwesomeIcon className={styles.icon} icon={faCartPlus} />
                     </div>
                     <div className={styles.headerLogin}>
-                        <button className={styles.loginBtn}>LogIn</button>
+                        <FontAwesomeIcon className={styles.icon} icon={faSignInAlt} />
                     </div>
                 </div>
             </div>
