@@ -1,5 +1,5 @@
-import Header from "../src/layout/Header";
-import Banner from "../src/view/HomePage/component/Banner/Banner";
+import Layout from "../src/layout/Layout";
+import HomePage from "../src/view/HomePage/HomePage";
 
 export const getStaticProps = async () => {
   const res = await fetch("https://fakestoreapi.com/products");
@@ -12,13 +12,9 @@ export const getStaticProps = async () => {
 
 export default function Home({ products }) {
   return (
-    <div>
-      <Header />
-      <Banner />
+    <Layout>
       <HomePage products={products} />
-
-    </div>
+    </Layout>
   );
 }
 
-import HomePage from "../src/view/HomePage/HomePage";

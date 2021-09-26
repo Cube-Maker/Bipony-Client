@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Header.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartPlus, faUserCircle } from '@fortawesome/free-solid-svg-icons'
+import { faCartPlus, faUserCircle, faSignInAlt, faSearch } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
     return (
@@ -14,7 +14,7 @@ export default function Header() {
                 <div className={styles.headerSearch}>
                     <form >
                         <input type="text" placeholder="Search Product" className={styles.searchInput} />
-                        <input type="submit" className={styles.searchBtn} />
+                        <button className={styles.searchBtn}><FontAwesomeIcon className={styles.searchIcon} icon={faSearch} /></button>
                     </form>
                 </div>
                 <div className={styles.headerDetails}>
@@ -25,7 +25,7 @@ export default function Header() {
                         <FontAwesomeIcon className={styles.icon} icon={faCartPlus} />
                     </div>
                     <div className={styles.headerLogin}>
-                        <button className={styles.loginBtn}>LogIn</button>
+                        <FontAwesomeIcon className={styles.icon} icon={faSignInAlt} />
                     </div>
                 </div>
             </div>
