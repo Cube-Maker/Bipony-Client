@@ -10,7 +10,7 @@
 
 /* Category */
 .Category {
-    width: 30%;
+    width: 20%;
 } 
 
 .Category ul li {
@@ -19,8 +19,8 @@
     font-weight: 500;
     list-style: none;
     margin-top: 5px;
-    margin-bottom: 8px;
-    padding-bottom: 8px;
+    margin-top: 5px;
+    padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     cursor: pointer;
@@ -28,14 +28,13 @@
 }
 
 .Category ul li:hover{
-    border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     background: rgb(220, 255, 166);
 }
 
 /* Slider */
 .Banner_Sliders {
-    width: 65%;
+    width: 60%;
     height: 100%;
 }
 
@@ -60,7 +59,7 @@
     margin-left: 10%;
     font-size: 32px;
     font-weight: bold;
-    color: rgb(255, 246, 220);
+    color: rgb(228, 220, 255);
     letter-spacing: 2px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -73,4 +72,70 @@
     font-weight: bold;
     color: rgb(255, 246, 220);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.BannerDiscount {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.BannerDiscount1 {
+    height: 80px;
+    background: url(./apple.jpg);
+    background-image: cover;
+    margin-bottom: 10px;
+}
+
+.BannerDiscount2 {
+    height: 80px;
+    background: url(./blender.jpg);
+    background-image: cover;
+    margin-bottom: 10px;
+}
+
+.BannerDiscount3 {
+    height: 80px;
+    background: url(./books.jpg);
+    background-image: cover;
+    margin-bottom: 10px;
+}
+
+.BannerDiscount4 {
+    height: 80px;
+    background: url(./tshirt.jpg);
+    background-image: cover;
+    margin-bottom: 10px;
+}
+
+/* Mobile view */
+
+.MobileViewCategory {
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    .Banner_Sliders{
+        width: 96%;
+        margin: auto;
+    }
+    .Category{
+        display: none;
+    }
+    .BannerDiscount{
+        display: none;
+    }
+    
 }

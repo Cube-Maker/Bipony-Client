@@ -1,12 +1,14 @@
-.productScroll {
-  overflow-x: scroll;
-  display: flex;
+.icon {
+  color: black;
+  margin-top: 5px;
 }
-.singleProduct {
-  padding-right: 40px;
-  padding-left: 40px;
-  width: 300px !important;
+.icon:hover {
+  color: gray;
 }
-.img{
-  width:300px;
+.takaIcon {
+  padding-left: 3px;
+  font-size: 20px;
+}
+.heading {
+  color: red;
 }
