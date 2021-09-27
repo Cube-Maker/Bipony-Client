@@ -43,6 +43,9 @@
     background:linear-gradient(to right , rgb(22, 46, 0), rgb(21, 0, 80));
 }
 
+
+/* media */
+
 @media (max-width:750px) {
     .Items2{
         display: none;
