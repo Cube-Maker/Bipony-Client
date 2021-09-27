@@ -1,0 +1,11 @@
+.icon {
+  color: black;
+  margin-top: 5px;
+}
+.icon:hover {
+  color: gray;
+}
+.takaIcon {
+  padding-left: 3px;
+  font-size: 20px;
+}
