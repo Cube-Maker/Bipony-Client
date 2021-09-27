@@ -45,7 +45,7 @@ let shops = [
 const ShopCards = () => {
     return (
         <section className="flex flex-row justify-center my-10">
-            <div style={{width: '90%'}} className="grid grid-cols-5 gap-8" >
+            <div style={{ width: '90%' }} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8" >
                 {
                     shops.map((shop) =>
                         <div className="relative col-span-1 border-2 p-1 border-gray-200 rounded-lg cursor-pointer hover:shadow-xl" key={shop.id}>

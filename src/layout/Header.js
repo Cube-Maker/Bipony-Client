@@ -1,8 +1,13 @@
 import React from "react";
 import styles from "./Header.module.css";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartPlus, faUserCircle, faSignInAlt, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCartPlus,
+  faUserCircle,
+  faSignInAlt,
+  faSearch,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
@@ -12,9 +17,15 @@ export default function Header() {
           Bipony
         </div>
         <div className={styles.headerSearch}>
-          <form >
-            <input type="text" placeholder="Search Product" className={styles.searchInput} />
-            <button className={styles.searchBtn}><FontAwesomeIcon className={styles.searchIcon} icon={faSearch} /></button>
+          <form>
+            <input
+              type="text"
+              placeholder="Search Product"
+              className={styles.searchInput}
+            />
+            <button className={styles.searchBtn}>
+              <FontAwesomeIcon className={styles.searchIcon} icon={faSearch} />
+            </button>
           </form>
         </div>
         <div className={styles.headerDetails}>
@@ -30,5 +41,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }

@@ -82,22 +82,6 @@
       "image": "https://i.ibb.co/jTVSd08/11.jpg"
     },
     {
-      "id": 11,
-      "title": "Oppo F19",
-      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
-      "category": "mobile",
-      "price": 21299,
-      "image": "https://i.ibb.co/LPhPfym/10.jpg"
-    },
-    {
-      "id": 12,
-      "title": "Motorola G9",
-      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
-      "category": "mobile",
-      "price": 21299,
-      "image": "https://i.ibb.co/5vBmCgB/16.png"
-    },
-    {
       "id": 13,
       "title": "Dell Laptop",
       "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
@@ -178,24 +162,6 @@
       "image": "https://i.ibb.co/6vFsRCn/chuwi.jpg"
     },
     {
-      "id": 33,
-      "title": "Avita",
-      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
-      "category": "laptop",
-      "price": 14700,
-      "image": "https://i.ibb.co/r29wWBf/Avita.jpg"
-    },
-
-    {
-      "id": 35,
-      "title": "Asus Zenbook",
-      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
-      "category": "laptop",
-      "price": 14700,
-      "image": "https://i.ibb.co/19SZj3L/asus-zenbook-15.jpg"
-    },
-
-    {
       "id": 37,
       "title": "Mosur dal",
       "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
@@ -271,22 +237,6 @@
     {
       "id": 42,
       "title": "Pran ghee",
-      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
-      "category": "grocery",
-      "price": 14700,
-      "image": "https://i.ibb.co/fdwrYHp/16.webp"
-    },
-    {
-      "id": 41,
-      "title": "Mug",
-      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
-      "category": "grocery",
-      "price": 14700,
-      "image": "https://i.ibb.co/fktvsKK/17.webp"
-    },
-    {
-      "id": 42,
-      "title": "Fuchka",
       "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
       "category": "grocery",
       "price": 14700,
@@ -371,22 +321,6 @@
       "category": "bike",
       "price": 14700,
       "image": "https://i.ibb.co/KzYkgH1/honda-CBR150.jpg"
-    },
-    {
-      "id": 64,
-      "title": "Hero Glamout",
-      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
-      "category": "bike",
-      "price": 14700,
-      "image": "https://i.ibb.co/54jjbxh/Hero-Glamour.jpg"
-    },
-    {
-      "id": 65,
-      "title": "Bajaj Pulsar",
-      "description": "Realme Narzo 30 - 6GB RAM/128GB ROM - 5000mAH Battery",
-      "category": "bike",
-      "price": 14700,
-      "image": "https://i.ibb.co/XpQQVyF/bajaj-pulsar-NS60.jpg"
     }
   ]
 }

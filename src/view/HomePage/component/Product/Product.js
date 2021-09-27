@@ -8,7 +8,7 @@ const Product = ({ products }) => {
       <div className="py-16 container mx-auto">
         <h3 className="mb-8 text-bold text-3xl">Mobile</h3>
         {/* Single Product */}
-        <div className="grid grid-cols-6">
+        <div className="grid grid-cols-5">
           {products
             .filter((product) => product.category === "mobile")
             .map((product) => (
@@ -41,7 +41,7 @@ const Product = ({ products }) => {
       <div className="py-16 container mx-auto">
         <h3 className="mb-8 text-bold text-3xl">Laptop</h3>
         {/* Single Product */}
-        <div className="grid grid-cols-6">
+        <div className="grid grid-cols-5">
           {products
             .filter((product) => product.category === "laptop")
             .map((product) => (
@@ -74,7 +74,7 @@ const Product = ({ products }) => {
       <div className="py-16 container mx-auto">
         <h3 className="mb-8 text-bold text-3xl">grocery</h3>
         {/* Single Product */}
-        <div className="grid grid-cols-6">
+        <div className="grid grid-cols-5">
           {products
             .filter((product) => product.category === "grocery")
             .map((product) => (
@@ -107,7 +107,7 @@ const Product = ({ products }) => {
       <div className="py-16 container mx-auto">
         <h3 className="mb-8 text-bold text-3xl">Motor Cycle</h3>
         {/* Single Product */}
-        <div className="grid grid-cols-6">
+        <div className="grid grid-cols-5">
           {products
             .filter((product) => product.category === "bike")
             .map((product) => (
