@@ -34,7 +34,7 @@
 
 /* Slider */
 .Banner_Sliders {
-    width: 65%;
+    width: 60%;
     height: 100%;
 }
 
@@ -72,4 +72,70 @@
     font-weight: bold;
     color: rgb(255, 246, 220);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.BannerDiscount {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.BannerDiscount1 {
+    height: 80px;
+    background: url(./apple.jpg);
+    background-image: cover;
+    margin-bottom: 10px;
+}
+
+.BannerDiscount2 {
+    height: 80px;
+    background: url(./blender.jpg);
+    background-image: cover;
+    margin-bottom: 10px;
+}
+
+.BannerDiscount3 {
+    height: 80px;
+    background: url(./books.jpg);
+    background-image: cover;
+    margin-bottom: 10px;
+}
+
+.BannerDiscount4 {
+    height: 80px;
+    background: url(./tshirt.jpg);
+    background-image: cover;
+    margin-bottom: 10px;
+}
+
+/* Mobile view */
+
+.MobileViewCategory {
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    .Banner_Sliders{
+        width: 96%;
+        margin: auto;
+    }
+    .Category{
+        display: none;
+    }
+    .BannerDiscount{
+        display: none;
+    }
+    
 }
