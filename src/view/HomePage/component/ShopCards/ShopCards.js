@@ -20,7 +20,7 @@ let shops = [
     {
         id: 3,
         name: 'Tech Shop Bd',
-        background_image: "https://www.elegantthemes.com/blog/wp-content/uploads/2020/12/online-shopping-products.png",
+        background_image: "https://venngage-wordpress.s3.amazonaws.com/uploads/2021/08/Technology-YouTube-Banner-Template.png",
         description: 'Lorem ipsum dolor sit amet',
         logo: "https://play-lh.googleusercontent.com/VBzSnpA80QE2YSoPBlt3kEIjo197qqJDpEKOeb_UPvkrdcsbJGTLWCNw4GisDegXQW6S",
 
@@ -44,28 +44,31 @@ let shops = [
 
 const ShopCards = () => {
     return (
-        <section className="flex flex-row justify-center my-10">
-            <div style={{width: '90%'}} className="grid grid-cols-5 gap-8" >
-                {
-                    shops.map((shop) =>
-                        <div className="relative col-span-1 border-2 p-1 border-gray-200 rounded-lg cursor-pointer hover:shadow-xl" key={shop.id}>
-                            <div className="flex flex-col justify-between">
-                                <div className="border-b-2 flex flex-col justify-center items-center w-full h-28">
-                                    <img src={shop.background_image} alt="" className="w-full h-full" />
-                                </div>
-                                <div className="bg-white flex flex-col justify-center items-center">
-                                    <div className="mt-12">
-                                        <h4 className="text-xl font-bold text-center">{shop.name}</h4>
-                                        <h5 className="text-gray-400">{shop.description}</h5>
+        <section className="pt-16">
+            <h3 className="mb-8 text-bold text-3xl">Trending Shops</h3>
+            <div className="flex flex-row justify-center my-10">
+                <div style={{ width: '90%' }} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8" >
+                    {
+                        shops.map((shop) =>
+                            <div className="relative col-span-1 border-2 p-1 border-gray-200 rounded-lg cursor-pointer hover:shadow-xl" key={shop.id}>
+                                <div className="flex flex-col justify-between">
+                                    <div className="border-b-2 flex flex-col justify-center items-center w-full h-28">
+                                        <img src={shop.background_image} alt="" className="w-full h-full" />
+                                    </div>
+                                    <div className="bg-white flex flex-col justify-center items-center">
+                                        <div className="mt-12">
+                                            <h4 className="text-xl font-bold text-center">{shop.name}</h4>
+                                            <h5 className="text-gray-400">{shop.description}</h5>
+                                        </div>
+                                    </div>
+                                    <div style={{ top: "48%" }} className="bg-white shadow p-1 h-16 w-16 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                        <img src={shop.logo} alt="" className="w-full h-full" />
                                     </div>
                                 </div>
-                                <div style={{ top: "48%" }} className="bg-white shadow p-1 h-16 w-16 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                    <img src={shop.logo} alt="" className="w-full h-full" />
-                                </div>
                             </div>
-                        </div>
-                    )
-                }
+                        )
+                    }
+                </div>
             </div>
         </section>
     );
