@@ -5,10 +5,12 @@ const Product = ({ products }) => {
   return (
     <section className="bg-gray-100">
       {/* Mobile category Product */}
-      <div className="py-16 container mx-auto">
-        <h3 className="mb-8 text-bold text-3xl">Mobile</h3>
+      <div className={`${style.maxWidth} pt-16 mx-auto`}>
+        <h3 className="mb-8 ml-8 text-bold text-3xl sm:text-center md:text-left">
+          Mobile
+        </h3>
         {/* Single Product */}
-        <div className="grid grid-cols-5">
+        <div className="grid md:grid-cols-5 sm:grid-cols-2">
           {products
             .filter((product) => product.category === "mobile")
             .map((product) => (
@@ -16,7 +18,7 @@ const Product = ({ products }) => {
                 key="product.id"
                 className="text-center border-solid border-black m-2  rounded bg-white"
               >
-                <img width="300" className="p-6" src={product.image} />
+                <img className="p-6" src={product.image} />
                 <div className="bg-gray-200 p-2">
                   <h4 className="text-bold text-xl">{product.title}</h4>
                   <span className="flex justify-evenly">
@@ -38,10 +40,12 @@ const Product = ({ products }) => {
         </div>
       </div>
       {/* Laptop category Product */}
-      <div className="py-16 container mx-auto">
-        <h3 className="mb-8 text-bold text-3xl">Laptop</h3>
+      <div className={`${style.maxWidth} pt-16 mx-auto`}>
+        <h3 className="mb-8 ml-8 text-bold text-3xl sm:text-center md:text-left">
+          Laptop
+        </h3>
         {/* Single Product */}
-        <div className="grid grid-cols-5">
+        <div className="grid md:grid-cols-5 sm:grid-cols-2">
           {products
             .filter((product) => product.category === "laptop")
             .map((product) => (
@@ -71,10 +75,12 @@ const Product = ({ products }) => {
         </div>
       </div>
       {/* Grocery category Product */}
-      <div className="py-16 container mx-auto">
-        <h3 className="mb-8 text-bold text-3xl">grocery</h3>
+      <div className={`${style.maxWidth} pt-16 mx-auto`}>
+        <h3 className="mb-8 ml-8 text-bold text-3xl sm:text-center md:text-left">
+          Grocery
+        </h3>
         {/* Single Product */}
-        <div className="grid grid-cols-5">
+        <div className="grid md:grid-cols-5 sm:grid-cols-2">
           {products
             .filter((product) => product.category === "grocery")
             .map((product) => (
@@ -104,10 +110,12 @@ const Product = ({ products }) => {
         </div>
       </div>
       {/* Bike category Product */}
-      <div className="py-16 container mx-auto">
-        <h3 className="mb-8 text-bold text-3xl">Motor Cycle</h3>
+      <div className={`${style.maxWidth} pt-16 mx-auto`}>
+        <h3 className="mb-8 ml-8 text-bold text-3xl sm:text-center md:text-left">
+          Motor Cycle
+        </h3>
         {/* Single Product */}
-        <div className="grid grid-cols-5">
+        <div className="grid md:grid-cols-5 sm:grid-cols-2">
           {products
             .filter((product) => product.category === "bike")
             .map((product) => (
