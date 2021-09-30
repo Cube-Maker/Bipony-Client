@@ -40,7 +40,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-      {/*  */}
     </header>
   );
 }
