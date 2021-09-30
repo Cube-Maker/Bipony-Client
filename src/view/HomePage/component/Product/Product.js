@@ -43,7 +43,7 @@ const Product = ({ products }) => {
           Laptop
         </h3>
         {/* Single Product */}
-        <div className="grid md:grid-cols-5 sm:grid-cols-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {products
             .filter((product) => product.category === "laptop")
             .map((product) => (
@@ -86,7 +86,7 @@ const Product = ({ products }) => {
           Grocery
         </h3>
         {/* Single Product */}
-        <div className="grid md:grid-cols-5 sm:grid-cols-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {products
             .filter((product) => product.category === "grocery")
             .map((product) => (
@@ -121,7 +121,7 @@ const Product = ({ products }) => {
           Motor Cycle
         </h3>
         {/* Single Product */}
-        <div className="grid md:grid-cols-5 sm:grid-cols-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {products
             .filter((product) => product.category === "bike")
             .map((product) => (

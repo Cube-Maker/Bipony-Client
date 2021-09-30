@@ -20,7 +20,7 @@ export default function Header() {
           <form>
             <input
               type="text"
-              placeholder="Search Product"
+              placeholder="Search in Bipony"
               className={styles.searchInput}
             />
             <button className={styles.searchBtn}>
