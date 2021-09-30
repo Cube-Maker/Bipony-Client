@@ -6,7 +6,7 @@ const HomePage = ({ products }) => {
   return (
     <>
       <Banner />
-      <Product products={products} />
+      <Product/>
     </>
   );
 };
