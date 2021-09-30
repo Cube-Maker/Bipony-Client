@@ -342,21 +342,19 @@ const Product = () => {
             .map((product) => (
               <div
                 key="product.id"
-                className="text-center border-solid border-black m-2  rounded bg-white"
-              >
+                className="text-center border-solid border-black m-2  rounded bg-white">
                 <img className="p-6" src={product.image} />
                 <div className="bg-gray-200 p-2">
                   <h4 className="text-bold text-xl">{product.title}</h4>
                   <span className="flex justify-evenly">
                     <div>
-                      <h4>{product.price} &#2547;</h4>
+                      <h4>${product.price}</h4>
                     </div>
                     <div>
                       <a href="#">
                         <FontAwesomeIcon
                           className={style.icon}
-                          icon={faCartPlus}
-                        />
+                          icon={faCartPlus} />
                       </a>
                     </div>
                   </span>
@@ -377,9 +375,17 @@ const Product = () => {
             .map((product) => (
               <div
                 key="product.id"
-                className="text-center border-solid border-black m-2  rounded bg-white"
-              >
-                <img width="300" className="p-6" src={product.image} />
+                className="
+                text-center 
+                border-solid 
+                border-black 
+                m-2  
+                rounded 
+                bg-white">
+                <img
+                  width="300"
+                  className="p-6"
+                  src={product.image} />
                 <div className="bg-gray-200 p-2">
                   <h4 className="text-bold text-xl">{product.title}</h4>
                   <span className="flex justify-evenly">

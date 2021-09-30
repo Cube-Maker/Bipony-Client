@@ -13,12 +13,14 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.grid}>
-        <div className={styles.logoContainer}>Bipony</div>
+        <div className={styles.logoContainer}>
+          Bipony
+        </div>
         <div className={styles.headerSearch}>
           <form>
             <input
               type="text"
-              placeholder="Search Product"
+              placeholder="Search in Bipony"
               className={styles.searchInput}
             />
             <button className={styles.searchBtn}>

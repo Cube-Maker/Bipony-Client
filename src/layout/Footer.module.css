@@ -1,5 +1,6 @@
 .footer {
-    background-image: linear-gradient(to right, #ff7730, #ffb970);
+    /* background-image: linear-gradient(to right, #ff7730, #ffb970); */
+    background-color: #120E1B;
     color: #fff;
 }
 
@@ -19,7 +20,7 @@
     font-size: 56px;
     font-weight: 700;
     text-transform: uppercase;
-    color: rgb(143, 45, 0);
+    color: #A393C8;
 }
 
 .footer_links .footer_heading {
@@ -40,7 +41,7 @@
 
 .footer_links .footer_link ul li {
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: #E8E4F1;
 }
 
 .socialIcons {
@@ -50,7 +51,7 @@
 }
 
 .socialIcon {
-    background-color: rgb(143, 45, 0);
+    background-color: #BAAED5;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -61,7 +62,7 @@
 }
 
 .socialIcon:hover {
-    background-color: rgb(116, 38, 2);
+    background-color: #A393C8;
     transform: rotate(360deg);
 }
 
@@ -71,13 +72,17 @@
     height: 25px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .grid_footer {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+    .container {
+        width: 98%;
+    }
     .grid_footer {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }

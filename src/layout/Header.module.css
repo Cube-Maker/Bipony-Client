@@ -3,8 +3,8 @@
 
 .header {
     /* background-image: linear-gradient(to right, rgba(255, 119, 48, .5), rgba(255, 185, 112, .5)); */
-    background-image: linear-gradient(to right, #ff7730, #ffb970);
-    /* background-color: rgba(171, 235, 21, .5); */
+    /* background-image: linear-gradient(to right, #ff7730, #ffb970); */
+    background-color: rgb(0, 0, 0);
     color: #fff;
     padding: 20px 0;
     box-shadow: 2px 4px 3px rgba(0, 0, 0, .1);
@@ -19,9 +19,6 @@
     text-align: center;
 }
 
-.logoContainer {
-    padding: 0 32px;
-}
 
 .headerSearch {
     width: 100%;
@@ -37,12 +34,15 @@
 }
 
 .searchBtn {
-    padding: 9px 22px;
-    border-radius: 0 5px 5px 0;
-    background-color: rgb(199, 60, 18);
-    color: white;
+    padding: 2.5px 15px 5px 15px;
+    color: rgba(187, 255, 0, 0.897);
+    font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(157, 255, 0, 0.884);
+
 }
 
 
@@ -56,7 +56,7 @@
 .icon {
     font-size: 32px;
     cursor: pointer;
-    color: rgb(58, 58, 58);
+    color: rgba(186, 253, 0, 0.897);
 }
 
 .loginBtn {
@@ -77,12 +77,14 @@
 
 @media screen and (max-width: 810px) {
     .grid {
-        width: 90%;
-        grid-template-columns: 1fr;
-        justify-items: center;
+        grid-template-columns: 15% 1fr;
         gap: 22px;
     }
     
+    .headerDetails {
+        width: 90vw;
+    }
+
     .headerSearch {
         width: 100%;
         margin: 0 auto;
@@ -91,10 +93,11 @@
 
 @media screen and (max-width: 500px) {
     .grid {
-        width: 90%;
+        width: 95%;
+        grid-template-columns: 20% 1fr;
         gap: 14px;
     }
-    .searchInput {
+    /* .searchInput {
         width: 55%;
-    }
+    } */
 }
