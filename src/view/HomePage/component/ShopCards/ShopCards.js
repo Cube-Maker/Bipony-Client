@@ -11,34 +11,34 @@ let shops = [
     },
     {
         id: 2,
-        name: 'Tech Shop Bd',
-        background_image: "https://www.elegantthemes.com/blog/wp-content/uploads/2020/12/online-shopping-products.png",
+        name: 'Gadget Gang',
+        background_image: "https://metropolismag.com/wp-content/uploads/2021/07/FAMILY_COLOR_1.jpg",
         description: 'Lorem ipsum dolor sit amet',
-        logo: "https://play-lh.googleusercontent.com/VBzSnpA80QE2YSoPBlt3kEIjo197qqJDpEKOeb_UPvkrdcsbJGTLWCNw4GisDegXQW6S",
+        logo: "https://st.depositphotos.com/1001311/3432/i/600/depositphotos_34328159-stock-photo-golden-matt-letter-g-jewellery.jpg",
 
     },
     {
         id: 3,
-        name: 'Tech Shop Bd',
-        background_image: "https://venngage-wordpress.s3.amazonaws.com/uploads/2021/08/Technology-YouTube-Banner-Template.png",
+        name: 'FootWare',
+        background_image: "https://cdn.luxe.digital/media/2021/06/18093702/most-comfortable-men-sneakers-adidas-ultraboost-21-review-luxe-digital%402x.jpg",
         description: 'Lorem ipsum dolor sit amet',
-        logo: "https://play-lh.googleusercontent.com/VBzSnpA80QE2YSoPBlt3kEIjo197qqJDpEKOeb_UPvkrdcsbJGTLWCNw4GisDegXQW6S",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiL77iAGOh8e7sG17FB3Ut3exOy5-mI4f8WQ&usqp=CAU",
 
     },
     {
         id: 4,
-        name: 'Tech Shop Bd',
-        background_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Football_%28soccer_ball%29.svg/1200px-Football_%28soccer_ball%29.svg.png",
+        name: 'Furniture Mart',
+        background_image: "https://www.sherrillfurniture.com/sites/sherrillfurniture.com/files/static/Sherrill-Furniture_3325_Slide.jpg",
         description: 'Lorem ipsum dolor sit amet',
-        logo: "https://play-lh.googleusercontent.com/VBzSnpA80QE2YSoPBlt3kEIjo197qqJDpEKOeb_UPvkrdcsbJGTLWCNw4GisDegXQW6S",
+        logo: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c7bb92109070469.5fcb7c69c7265.jpg",
 
     },
     {
         id: 5,
         name: 'Tech Shop Bd',
-        background_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Football_%28soccer_ball%29.svg/1200px-Football_%28soccer_ball%29.svg.png",
+        background_image: "https://i.pinimg.com/originals/21/5e/31/215e31a98cb6fd49cf29b70d8af45d6c.png",
         description: 'Lorem ipsum dolor sit amet',
-        logo: "https://play-lh.googleusercontent.com/VBzSnpA80QE2YSoPBlt3kEIjo197qqJDpEKOeb_UPvkrdcsbJGTLWCNw4GisDegXQW6S",
+        logo: "https://t3.ftcdn.net/jpg/03/20/95/60/360_F_320956059_3R6M6nt4VtgNqKGnSSRV73CytZDfsCsm.jpg",
     },
 ];
 
