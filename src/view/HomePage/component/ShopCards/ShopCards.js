@@ -1,6 +1,6 @@
 import React from 'react';
 
-let shops = [
+export const shops = [
     {
         id: 1,
         name: 'Tech Valley',
