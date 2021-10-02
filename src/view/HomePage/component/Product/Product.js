@@ -1,6 +1,6 @@
-import style from "./product.module.css";
+import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus, faUserCircle } from "@fortawesome/free-solid-svg-icons";
+import style from "./product.module.css";
 const Product = ({ products }) => {
   return (
     <section className="bg-gray-100">
