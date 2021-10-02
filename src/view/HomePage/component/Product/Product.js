@@ -4,33 +4,31 @@ import style from "./product.module.css";
 const Product = ({ products }) => {
   return (
     <section className="bg-gray-100">
-      {/* Mobile category Product */}
+      {/* Mobiles */}
       <div className={`${style.maxWidth} pt-16 mx-auto`}>
         <h3 className="mb-8 ml-8 text-bold text-3xl sm:text-center md:text-left">
           Mobile
         </h3>
-        {/* Single Product */}
-        <div className="grid md:grid-cols-5 sm:grid-cols-2">
+        {/* Mobile Cards */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {products
             .filter((product) => product.category === "mobile")
             .map((product) => (
               <div
                 key="product.id"
-                className="text-center border-solid border-black m-2  rounded bg-white"
-              >
+                className="text-center border-solid border-black m-2  rounded bg-white">
                 <img className="p-6" src={product.image} />
                 <div className="bg-gray-200 p-2">
                   <h4 className="text-bold text-xl">{product.title}</h4>
                   <span className="flex justify-evenly">
                     <div>
-                      <h4>{product.price} &#2547;</h4>
+                      <h4>${product.price}</h4>
                     </div>
                     <div>
                       <a href="#">
                         <FontAwesomeIcon
                           className={style.icon}
-                          icon={faCartPlus}
-                        />
+                          icon={faCartPlus} />
                       </a>
                     </div>
                   </span>
@@ -45,15 +43,23 @@ const Product = ({ products }) => {
           Laptop
         </h3>
         {/* Single Product */}
-        <div className="grid md:grid-cols-5 sm:grid-cols-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {products
             .filter((product) => product.category === "laptop")
             .map((product) => (
               <div
                 key="product.id"
-                className="text-center border-solid border-black m-2  rounded bg-white"
-              >
-                <img width="300" className="p-6" src={product.image} />
+                className="
+                text-center 
+                border-solid 
+                border-black 
+                m-2  
+                rounded 
+                bg-white">
+                <img
+                  width="300"
+                  className="p-6"
+                  src={product.image} />
                 <div className="bg-gray-200 p-2">
                   <h4 className="text-bold text-xl">{product.title}</h4>
                   <span className="flex justify-evenly">
@@ -80,7 +86,7 @@ const Product = ({ products }) => {
           Grocery
         </h3>
         {/* Single Product */}
-        <div className="grid md:grid-cols-5 sm:grid-cols-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {products
             .filter((product) => product.category === "grocery")
             .map((product) => (
@@ -115,7 +121,7 @@ const Product = ({ products }) => {
           Motor Cycle
         </h3>
         {/* Single Product */}
-        <div className="grid md:grid-cols-5 sm:grid-cols-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {products
             .filter((product) => product.category === "bike")
             .map((product) => (
