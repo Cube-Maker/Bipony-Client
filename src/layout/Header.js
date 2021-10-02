@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Header.module.css";
 
+import Link from 'next/link'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCartPlus,
@@ -13,9 +15,11 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.grid}>
-        <div className={styles.logoContainer}>
-          Bipony
-        </div>
+        <Link href="/">
+          <div className={styles.logoContainer}>
+            Bipony
+          </div>
+        </Link>
         <div className={styles.headerSearch}>
           <form>
             <input

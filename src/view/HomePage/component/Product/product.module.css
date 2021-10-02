@@ -9,6 +9,7 @@
   padding-left: 3px;
   font-size: 20px;
 }
-.heading {
-  color: red;
+
+.maxWidth {
+  max-width: 96;
 }
