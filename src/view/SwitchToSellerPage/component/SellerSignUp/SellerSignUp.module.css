@@ -1,0 +1,35 @@
+.sellerSignUp {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: papayawhip;
+
+    display: flex;
+    align-items: center;
+}
+
+.sellerGreet {
+    flex: 0 0 30%;
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.account {
+    
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 8px 18px;
+    background-color: peru;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}

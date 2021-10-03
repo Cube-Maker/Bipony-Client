@@ -1,0 +1,34 @@
+.shopInfo {
+    background-color: blanchedalmond;
+    padding: 4rem;
+}
+
+.shopHeading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.shopDetails {
+    max-width: 500px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background-color: rgb(255, 247, 234);
+    box-shadow: 0px 4px 40px rgba(0,0,0,.2);
+    padding: 2rem;
+}
+
+.shopName {
+    font-size: 22px;
+}
+
+.editBtn {
+    display: block;
+    text-align: right;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: rgb(223, 174, 101);
+}
