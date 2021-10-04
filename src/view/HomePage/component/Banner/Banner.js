@@ -1,12 +1,7 @@
 import React from 'react';
-import Image from 'next/image'
 import styles from './Banner.module.css'
 import '../../../../../node_modules/antd/dist/antd.min.css'
 import { Carousel } from 'antd'
-import Image1 from './mobile.jpg'
-import Image8 from './losion.jpg'
-import Image2 from './bicks.jpg'
-import Image3 from './apple.jpg'
 
 const Banner = () => {
     return (
