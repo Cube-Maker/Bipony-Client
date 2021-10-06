@@ -9,7 +9,7 @@ const HomePage = ({ products }) => {
     <>
       <SubNavigation />
       <Banner />
-      <Product products={products} />
+      <Product />
       <ShopCards />
     </>
   );

@@ -1,83 +1,128 @@
 import { useRouter } from "next/router";
 import Cookies from 'js-cookie';
 import Link from "next/link";
-import { useState } from "react";
-
+import { useRouter } from 'next/router';
+import { useForm } from 'react-hook-form';
 const signUp = () => {
-    const router = useRouter()
+    const { register, handleSubmit, errors, reset } = useForm();
+    const router = useRouter();
 
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-    const [phone, setPhone] = useState('')
+    function onSubmitForm(values) {
+        // reset();
+        console.log(values)
+        fetch("https://morning-castle-44437.herokuapp.com/api/signup", {
+            method: "POST",
+            headers: {
+                "content-type": "application/json",
+            },
+            body: JSON.stringify(values),
 
-    const handleSignUp = async(e) => {
-        e.preventDefault()
-        try {
-            const data = await fetch("https://morning-castle-44437.herokuapp.com/api/signup", {
-                name,
-                email,
-                password,
-                phone
+        })
+            .then((res) => res.json())
+            .then((data) => {
+                reset();
+                router.push("/login");
+                console.log(data);
             })
-            console.log(data)
-            alert("sugn up succesfully")
-            Cookies.set('userInfo', data);
-            console.log(Cookies)
-            router.push('/login')
-        }
-        catch(err) {
-            alert("something wrong")
-        }
+            .catch((err) => console.log(err));
     }
-
     return (
         <section className="bg-gray-200">
             <div className="bg-grey-lighter min-h-screen flex flex-col">
-                <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
-                    <form onSubmit={handleSignUp} className="bg-white px-6 py-8 rounded shadow-md text-black w-full">
-                        <h1 className="mb-8 text-3xl text-center">Sign up</h1>
-                        <input
-                            onChange={e => setName(e.target.value)}
-                            type="text"
-                            className="block border border-grey-light w-full p-3 rounded mb-4"
-                            name="name"
-                            placeholder="Name" />
+            <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+            <div className="bg-white px-6 py-8 rounded shadow-md text-black w-full">
+            <h1 className="mb-8 text-3xl text-center">Sign up</h1>
+            <form onSubmit={handleSubmit(onSubmitForm)}>
+            <input
+            type ="text"
+            className="block border border-grey-light w-full p-3 rounded mb-4"
+            name="fullName"
+            placeholder="Name"
+        {...register('fullName',{
+            required: {
+            value: true,
+            message: 'You must enter your name',
+        },
+        })}
+            />
+            <span className="text-red-400 text-sm py-2">
+        {errors?.fullName?.message}
+            </span>
+            <input
+            type ="email"
+            className="block border border-grey-light w-full p-3 rounded mb-4"
+            name="email"
+            placeholder="Email"
+        {...register('email',{
+            required: {
+            value: true,
+            message: 'You must enter your email address',
+        },
+            minLength: {
+            value: 8,
+            message: 'This is not long enough to be an email',
+        },
+            maxLength: {
+            value: 120,
+            message: 'This is too long',
+        },
+            pattern: {
+            value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+            message: 'This needs to be a valid email address',
+        },
+        })} />
 
-                        <input
-                            onChange={e => setEmail(e.target.value)}
-                            type="text"
-                            className="block border border-grey-light w-full p-3 rounded mb-4"
-                            name="email"
-                            placeholder="Email" />
+            <input
+            type ="password"
+            className="block border border-grey-light w-full p-3 rounded mb-4"
+            name="password"
+            placeholder="Password"
+        {...register('password',{
+            required: {
+            value: true,
+            message: 'You must enter your email address',
+        },
+            minLength: {
+            value: 6,
+            message: 'This is not long enough to a Strong Password',
+        },
+            maxLength: {
+            value: 32,
+            message: 'This is too long',
+        },
+        })}/>
 
-                        <input
-                        onChange={e => setPassword(e.target.value)}
-                            type="password"
-                            className="block border border-grey-light w-full p-3 rounded mb-4"
-                            name="password"
-                            placeholder="Password" />
-
-                        <input
-                        onChange={e => setPhone(e.target.value)}
-                            type="number"
-                            className="block border border-grey-light w-full p-3 rounded mb-4"
-                            name="Phone"
-                            placeholder="Phone" />
-                        <button
-
-                            type="submit"
-                            className="w-full text-center py-3 rounded bg-green-400 text-white hover:bg-green-dark focus:outline-none my-1"
-                        >Create Account</button>
-
-                    </form>
-                    <div className="text-grey-dark mt-6">
-                        Already have an account?
-                        <Link className="ms-2" href="/login">
-                            <a>Login</a>
-                        </Link>
-                    </div>
-                </div>
+            <input
+            type ="text"
+            className="block border border-grey-light w-full p-3 rounded mb-4"
+            name="phone"
+            placeholder="Phone"
+        {...register('phone',{
+            required: {
+            value: true,
+            message: 'You must enter your email address',
+        },
+            minLength: {
+            value: 11,
+            message: 'This is not long enough to a Strong Password',
+        },
+            maxLength: {
+            value: 13,
+            message: 'This is too long',
+        },
+        })}/>
+            <button
+            type ="submit"
+            className="w-full text-center py-3 rounded bg-green-400 text-white hover:bg-green-dark focus:outline-none my-1"
+            >Create Account</button>
+            </form>
+            </div>
+            <div className="text-grey-dark mt-6">
+            Already have an account?
+            <Link className="ms-2" href="/login">
+            <a>Login</a>
+            </Link>
+            </div>
             </div>
         </section>
     );
