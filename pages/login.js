@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { useRouter } from 'next/router';
+import React from 'react';
 import { useForm } from 'react-hook-form';
-const login = () => {
+const Login = () => {
     const { register, handleSubmit, errors, reset } = useForm();
     const router = useRouter();
     function onSubmitForm(values) {
+        // const userData = new Array();
         reset();
         console.log(values)
         fetch("https://morning-castle-44437.herokuapp.com/api/signin", {
@@ -13,7 +15,7 @@ const login = () => {
           "content-type": "application/json",
         },
         body: JSON.stringify(values),
-      
+        
       })
         .then((res) => res.json())
         .then((data) => {
@@ -22,6 +24,13 @@ const login = () => {
         })
         .catch((err) => console.log(err));
     }
+
+      // const [user = setUser] = useState([]);
+      // useEffect(() => {
+      //   // storing input name
+      //   localStorage.setItem("name", JSON.stringify(user));
+      // }, [user]);
+
   return ( 
    <section className="bg-gray-200">
       <div className="bg-grey-lighter min-h-screen flex flex-col">
@@ -30,6 +39,7 @@ const login = () => {
                     <h1 className="mb-8 text-3xl text-center">Login</h1>
                     <form onSubmit={handleSubmit(onSubmitForm)}>
                         <input 
+                            required
                             type="email"
                             className="block border border-grey-light w-full p-3 rounded mb-4"
                             name="email"
@@ -54,6 +64,7 @@ const login = () => {
                         })} />
 
                         <input 
+                            required
                             type="password"
                             className="block border border-grey-light w-full p-3 rounded mb-4"
                             name="password"
@@ -80,7 +91,7 @@ const login = () => {
                 </div>
                 <div className="text-grey-dark mt-6">
                     Don't  have an account? 
-                  <Link className="ms-2" href="/signUp">
+                  <Link className="ms-2" href="/Signup">
                       <a>Sign Up</a>
                   </Link>
                 </div>
@@ -90,4 +101,4 @@ const login = () => {
    );
 }
  
-export default login;
+export default Login;

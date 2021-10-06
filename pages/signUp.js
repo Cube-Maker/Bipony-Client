@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import { useForm } from 'react-hook-form';
-const signUp = () => {
+const Signup = () => {
     const { register, handleSubmit, errors, reset } = useForm();
     const router = useRouter();
 
@@ -31,7 +31,8 @@ const signUp = () => {
                 <div className="bg-white px-6 py-8 rounded shadow-md text-black w-full">
                     <h1 className="mb-8 text-3xl text-center">Sign up</h1>
                     <form onSubmit={handleSubmit(onSubmitForm)}>
-                        <input 
+                        <input
+                            required  
                             type="text"
                             className="block border border-grey-light w-full p-3 rounded mb-4"
                             name="fullName"
@@ -47,6 +48,7 @@ const signUp = () => {
                             {errors?.fullName?.message}
                         </span>
                         <input 
+                            required
                             type="email"
                             className="block border border-grey-light w-full p-3 rounded mb-4"
                             name="email"
@@ -71,6 +73,7 @@ const signUp = () => {
                         })} />
 
                         <input 
+                            required
                             type="password"
                             className="block border border-grey-light w-full p-3 rounded mb-4"
                             name="password"
@@ -91,6 +94,7 @@ const signUp = () => {
                         })}/>
                         
                         <input 
+                            required
                             type="text"
                             className="block border border-grey-light w-full p-3 rounded mb-4"
                             name="phone"
@@ -117,7 +121,7 @@ const signUp = () => {
                 </div>
                 <div className="text-grey-dark mt-6">
                     Already have an account? 
-                  <Link className="ms-2" href="/login">
+                  <Link className="ms-2" href="/Login">
                       <a>Login</a>
                   </Link>
                 </div>
@@ -127,4 +131,4 @@ const signUp = () => {
    );
 }
  
-export default signUp;
+export default Signup;
