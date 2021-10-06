@@ -1,7 +1,8 @@
 import { useRouter } from "next/router";
 import Cookies from 'js-cookie';
-import Link from "next/link";
-import { useForm } from 'react-hook-form';
+import Link from 'next/link'
+import { useForm } from 'react-hook-form'
+
 const Signup = () => {
     const { register, handleSubmit, errors, reset } = useForm();
     const router = useRouter();
