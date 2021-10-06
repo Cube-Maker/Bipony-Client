@@ -1,0 +1,6 @@
+.sideBar {
+    flex: 0 0 15%;
+    background: linear-gradient(to right bottom, #120E1B, #4a3c69);
+    color: #fff;
+    padding: 2rem 3rem;
+}

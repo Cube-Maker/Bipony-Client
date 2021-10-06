@@ -1,12 +1,12 @@
 import React from 'react';
 
-let shops = [
+export const shops = [
     {
         id: 1,
-        name: 'Tech Shop Bd',
-        background_image: "https://www.elegantthemes.com/blog/wp-content/uploads/2020/12/online-shopping-products.png",
+        name: 'Tech Valley',
+        background_image: "https://i.pinimg.com/originals/1d/c8/f4/1dc8f4657afcdbe6a2930fb15a55fbec.jpg",
         description: 'Lorem ipsum dolor sit amet',
-        logo: "https://play-lh.googleusercontent.com/VBzSnpA80QE2YSoPBlt3kEIjo197qqJDpEKOeb_UPvkrdcsbJGTLWCNw4GisDegXQW6S",
+        logo: "https://www.logopik.com/wp-content/uploads/edd/2018/10/Letter-T-Logo-Vector.png",
 
     },
     {
@@ -35,7 +35,7 @@ let shops = [
     },
     {
         id: 5,
-        name: 'Tech Shop Bd',
+        name: 'Grocery Palace',
         background_image: "https://i.pinimg.com/originals/21/5e/31/215e31a98cb6fd49cf29b70d8af45d6c.png",
         description: 'Lorem ipsum dolor sit amet',
         logo: "https://t3.ftcdn.net/jpg/03/20/95/60/360_F_320956059_3R6M6nt4VtgNqKGnSSRV73CytZDfsCsm.jpg",

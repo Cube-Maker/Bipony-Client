@@ -1,7 +1,7 @@
 import Banner from "./component/Banner/Banner";
-import Product from "./component/Product/Product";
 import ShopCards from "./component/ShopCards/ShopCards";
 import SubNavigation from "./component/SubNavigation/SubNavigation";
+import Product from "./component/Product/Product";
 
 
 const HomePage = ({ products }) => {
@@ -9,7 +9,7 @@ const HomePage = ({ products }) => {
     <>
       <SubNavigation />
       <Banner />
-      <Product/>
+      <Product />
       <ShopCards />
     </>
   );
