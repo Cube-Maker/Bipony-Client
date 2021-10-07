@@ -20,7 +20,7 @@ const ApprovedShops = () => {
                                     Total Products
                                 </th>
                                 <th className="px-6 py-2 text-lg text-gray-500">
-                                    Created_at
+                                    Creation Date
                                 </th>
                                 <th className="px-6 py-2 text-lg text-gray-500">
                                     Hold
@@ -50,7 +50,7 @@ const ApprovedShops = () => {
                                             <div className="text-sm text-gray-500">3</div>
                                         </td>
                                         <td className="px-6 py-4 text-sm text-gray-500">
-                                            2021-10-02
+                                        02-10-2021
                                         </td>
                                         <td className="px-6 py-4">
                                             <a href="#" className="px-4 py-1 text-sm text-blue-600 bg-blue-200 rounded-full">Hold</a>
