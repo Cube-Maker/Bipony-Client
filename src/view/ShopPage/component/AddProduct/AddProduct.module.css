@@ -1,0 +1,36 @@
+.addProduct {
+    background-color: blanchedalmond;
+    padding: 4rem;
+}
+
+.addProductHeading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.addProductSection {
+    max-width: 800px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background-color: rgb(255, 247, 234);
+    box-shadow: 0px 4px 40px rgba(0,0,0,.2);
+    padding: 2rem;
+}
+
+.addProductForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+
+.label {
+    display: inline-block;
+    width: 100%;
+}
+
+.input {
+    width: 90%;
+    padding: 10px; 
+    border: none;
+    outline: none;
+}
