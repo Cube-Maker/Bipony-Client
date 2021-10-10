@@ -11,54 +11,18 @@ export default function SellerInfo() {
     const router = useRouter()
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
 
-    // const [name, setName] = useState('')
-    // const [shopName, setShopName] = useState('')
-    // const [email, setEmail] = useState('')
-    // const [phone, setPhone] = useState('')
-    // const [shopDescription, setShopDescription] = useState('')
-    // const [shopCategory, setShopCategory] = useState('')
-    // const [password, setPassword] = useState('')
-    // const [country, setCountry] = useState('')
-
-    // const handleSubmit =(e) => {
-    //     e.preventDefault()
-    //     fetch("https://morning-castle-44437.herokuapp.com/api/vendorSignup", {
-    //         method: "POST",
-    //         headers: {
-    //             "Content-type": "application/json"
-    //         }, 
-    //         body : JSON.stringify( name,
-    //             shopName,
-    //             email,
-    //             shopDescription,
-    //             shopCategory,
-    //             password,
-    //             photo,
-    //             country,
-    //             phone) 
-    //     })
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         if(data) {
-    //             console.log(data)
-    //             router.push('/login')
-    //         }
-    //     })
-    //     .catch(err => console.log(err))
-    // }
-
     const onSubmit = data => {
+        console.log(data)
         const formData = {
             name: data.name,
             shopName: data.shopName,
             email: data.email,
-            description: data.description,
-            category: data.category,
+            shopDescription: data.shopDescription,
+            shopCategory: data.shopCategory,
             password: data.password,
             photo: photo,
             country: data.country,
             phone: data.phone
-
         }
         console.log(formData)
 
@@ -69,13 +33,15 @@ export default function SellerInfo() {
             },
             body: JSON.stringify(formData)
         })
-        .then(res => res.json())
-        .then(data => {
-            alert('service added succes')
-            router.push('/shop')
-            console.log(data)
-        })
-        .catch(err => console.log(err))
+            .then(res => res.json())
+            .then(data => {
+                if (data) {
+                    alert('service added succes')
+                    router.push('/shop')
+                    console.log(data)
+                }
+            })
+            .catch(err => console.log(err))
     }
 
     const handleFile = (e) => {
@@ -109,7 +75,7 @@ export default function SellerInfo() {
                             {...register("shopName")}
                             type="text"
                             className="block border border-grey-light w-full p-3 rounded mb-4 outline-none"
-                            name="shop name"
+                            name="shopName"
                             placeholder="Your Shop Name" />
 
                         <input
@@ -122,20 +88,20 @@ export default function SellerInfo() {
                             {...register("phone")}
                             type="phone"
                             className="block border border-grey-light w-full p-3 rounded mb-4 outline-none"
-                            name="email"
+                            name="phone"
                             placeholder="Phone" />
                         <input
-                            {...register("description")}
+                            {...register("shopDescription")}
                             type="text"
                             className="block border border-grey-light w-full p-3 rounded mb-4 outline-none"
-                            name="email"
+                            name="shopDescription"
                             placeholder="shop description" />
 
                         <input
-                            {...register("category")}
+                            {...register("shopCategory")}
                             type="text"
                             className="block border border-grey-light w-full p-3 rounded mb-4 outline-none"
-                            name="password"
+                            name="shopCategory"
                             placeholder="Shop category" />
                         <input
                             {...register("password")}
