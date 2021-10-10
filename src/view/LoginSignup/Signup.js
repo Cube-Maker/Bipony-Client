@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from "next/router";
-import { useForm } from 'react-hook-form';
+import { useForm } from "react-hook-form";
 
 const Signup = () => {
     const { register, handleSubmit, errors, reset } = useForm();
@@ -15,7 +15,6 @@ const Signup = () => {
                 "content-type": "application/json",
             },
             body: JSON.stringify(values),
-
         })
             .then((res) => res.json())
             .then((data) => {

@@ -34,3 +34,13 @@
     border: none;
     outline: none;
 }
+
+.submitBtn {
+    background-color: chocolate;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    margin: 1rem;
+
+    width: 85%;
+}
