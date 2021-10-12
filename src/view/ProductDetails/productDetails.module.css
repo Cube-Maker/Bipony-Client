@@ -1,16 +1,45 @@
-.icon {
-  color: rgb(255, 81, 0);
-  font-size: 20px;
-  margin-top: 5px;
-}
-.icon:hover {
-  color: rgb(0, 107, 18);
-}
-.takaIcon {
-  padding-left: 3px;
-  font-size: 20px;
+.ProductDetails {
+ 
 }
 
-.maxWidth {
-  max-width: 96;
+.Image {
+  width: 400px;
+  height: 400px;
+  border-radius: 3px;
+  border: 1px solid greenyellow;
+}
+
+.Icon {
+  color: gold;
+}
+
+.AddToCartButton {
+  padding: 4px 20px 5px 20px;
+  color: rgb(85, 85, 85);
+  border: none;
+  outline: none;
+  font-weight: 500;
+  background-color: greenyellow;
+  border-radius: 25px;
+}
+
+.AddToCartButton:hover{
+  color: black;
+  background-color: rgb(148, 247, 0);
+}
+
+.AddToWishList {
+  padding: 4px 20px 5px 20px;
+  color: rgb(85, 85, 85);
+  border: none;
+  outline: none;
+  font-weight: 500;
+  background-color: rgb(255, 234, 47);
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+.AddToWishList:hover {
+  color: black;
+  background-color: rgb(243, 219, 0);
 }
