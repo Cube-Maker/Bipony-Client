@@ -51,13 +51,19 @@ const data = [
 const ProductDetails = () => {
   return (
     <section className={Makeup.ProductDetails}>
+      {/* ...Top Section start... */}
       <section className="grid md:grid-cols-2 py-5 px-20">
+        {/* Product Image */}
         <div className={Makeup.Image}>
           <ReactImageZoom {...props} />
         </div>
+        {/* ...Product Content Start... */}
         <div>
+          {/* Title */}
           <p className="font-bold text-2xl mb-2">Realme 3 pro</p>
+          {/* Shop Name */}
           <p className="mb-1">Bipony shop</p>
+          {/* Review */}
           <div className="flex">
             <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
             <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
@@ -66,19 +72,25 @@ const ProductDetails = () => {
             <FontAwesomeIcon icon={faStarHalf} className={Makeup.Icon} />
             <p className="-mt-1 text-red-400 ml-2">177+ Review</p>
           </div>
+          {/* About this item */}
           <p className="font-bold mb-0">About this item:</p>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab officia hic dignissimos. Earum a eos iure repellat, fugiat molestias architecto voluptatum repellendus aliquam incidunt saepe officiis beatae quod corrupti numquam id quisquam sequi rerum sed quam doloribus consequuntur nostrum. Architecto.</p>
+          {/* Comment & Report */}
           <div className="flex">
             <p className="text-yellow-600 mr-5">Comment</p>
             <p className="text-yellow-600">Report</p>
           </div>
+          {/* Price */}
           <p className="font-bold text-xl text-green-700">$199</p>
+          {/* Buttons */}
           <div className="flex">
             <button className={Makeup.AddToCartButton}><FontAwesomeIcon icon={faCartPlus} /> Add to cart</button>
             <button className={Makeup.AddToWishList}><FontAwesomeIcon icon={faHeart} /> Add to Wishlist</button>
           </div>
         </div>
+        {/* ...Product Content End... */}
       </section>
+      {/* ...Top section end... */}
     </section>
   );
 }
