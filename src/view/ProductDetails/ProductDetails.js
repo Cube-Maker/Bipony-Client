@@ -1,9 +1,12 @@
 import { faCartPlus, faHeart, faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Makeup from "../ProductDetails/productDetails.module.css";
+import Image from 'next/image'
+import Image1 from './1.jpg'
+import Product from '../HomePage/component/Product/Product'
 
 import ReactImageZoom from 'react-image-zoom';
-const props = { width: 400, height: 400, zoomWidth: 500, img: "https://i.ibb.co/xhHdWgK/17.jpg" };
+const props = { width: 500, height: 400, zoomWidth: 500, img: "https://i.ibb.co/xhHdWgK/17.jpg" };
 
 const data = [
   {
@@ -52,13 +55,13 @@ const ProductDetails = () => {
   return (
     <section className={Makeup.ProductDetails}>
       {/* ...Top Section start... */}
-      <section className="grid md:grid-cols-2 py-5 px-20">
+      <section className="grid md:grid-cols-2 p-10">
         {/* Product Image */}
         <div className={Makeup.Image}>
           <ReactImageZoom {...props} />
         </div>
         {/* ...Product Content Start... */}
-        <div>
+        <div className={Makeup.ProductContent}>
           {/* Title */}
           <p className="font-bold text-2xl mb-2">Realme 3 pro</p>
           {/* Shop Name */}
@@ -91,6 +94,165 @@ const ProductDetails = () => {
         {/* ...Product Content End... */}
       </section>
       {/* ...Top section end... */}
+
+      {/* ...Review section start... */}
+      <section className="p-10">
+        <div className="grid md:grid-cols-2">
+          {/* Ttile */}
+          <p className="font-bold text-xl">Reviews</p>
+          {/* All review link*/}
+          <p className="font-bold text-blue-500 ml-auto">All Reviews</p>
+        </div>
+        {/* ...Reviews... */}
+        <div className="grid md:grid-cols-3 mt-5">
+          {/* Review1 */}
+          <div className="flex">
+            {/* Profile Pic */}
+            <div>
+              <Image className={Makeup.ReviewImage} src={Image1} width="100%" height="100%" alt="" />
+            </div>
+            {/* Content */}
+            <div>
+              <div className="flex ml-3 mb-0">
+                {/* name */}
+                <p className="font-bold">Rahul</p>
+                {/* Review stars */}
+                <div className="flex mt-1 ml-5">
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                </div>
+              </div>
+              {/* Review text */}
+              <p className="ml-3 -mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit velit quos sunt blanditiis quae, quod consectetur.</p>
+            </div>
+          </div>
+          {/* Review2 */}
+          <div className="flex">
+            {/* Profile Pic */}
+            <div>
+              <Image className={Makeup.ReviewImage} src={Image1} width="100%" height="100%" alt="" />
+            </div>
+            {/* Content */}
+            <div>
+              <div className="flex ml-3 mb-0">
+                {/* name */}
+                <p className="font-bold">Malik</p>
+                {/* Review stars */}
+                <div className="flex mt-1 ml-5">
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                </div>
+              </div>
+              {/* Review text */}
+              <p className="ml-3 -mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit velit quos sunt blanditiis quae, quod consectetur.</p>
+            </div>
+          </div>
+          {/* Review3 */}
+          <div className="flex">
+            {/* Profile Pic */}
+            <div>
+              <Image className={Makeup.ReviewImage} src={Image1} width="100%" height="100%" alt="" />
+            </div>
+            {/* Content */}
+            <div>
+              <div className="flex ml-3 mb-0">
+                {/* name */}
+                <p className="font-bold">Noyon</p>
+                {/* Review stars */}
+                <div className="flex mt-1 ml-5">
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                </div>
+              </div>
+              {/* Review text */}
+              <p className="ml-3 -mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit velit quos sunt blanditiis quae, quod consectetur.</p>
+            </div>
+          </div>
+          {/* Review4 */}
+          <div className="flex">
+            {/* Profile Pic */}
+            <div>
+              <Image className={Makeup.ReviewImage} src={Image1} width="100%" height="100%" alt="" />
+            </div>
+            {/* Content */}
+            <div>
+              <div className="flex ml-3 mb-0">
+                {/* name */}
+                <p className="font-bold">Badhon</p>
+                {/* Review stars */}
+                <div className="flex mt-1 ml-5">
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                </div>
+              </div>
+              {/* Review text */}
+              <p className="ml-3 -mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit velit quos sunt blanditiis quae, quod consectetur.</p>
+            </div>
+          </div>
+          {/* Review5 */}
+          <div className="flex">
+            {/* Profile Pic */}
+            <div>
+              <Image className={Makeup.ReviewImage} src={Image1} width="100%" height="100%" alt="" />
+            </div>
+            {/* Content */}
+            <div>
+              <div className="flex ml-3 mb-0">
+                {/* name */}
+                <p className="font-bold">Sumit</p>
+                {/* Review stars */}
+                <div className="flex mt-1 ml-5">
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                </div>
+              </div>
+              {/* Review text */}
+              <p className="ml-3 -mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit velit quos sunt blanditiis quae, quod consectetur.</p>
+            </div>
+          </div>
+          {/* Review6 */}
+          <div className="flex">
+            {/* Profile Pic */}
+            <div>
+              <Image className={Makeup.ReviewImage} src={Image1} width="100%" height="100%" alt="" />
+            </div>
+            {/* Content */}
+            <div>
+              <div className="flex ml-3 mb-0">
+                {/* name */}
+                <p className="font-bold">Jhankar</p>
+                {/* Review stars */}
+                <div className="flex mt-1 ml-5">
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                  <FontAwesomeIcon icon={faStar} className={Makeup.Icon} />
+                </div>
+              </div>
+              {/* Review text */}
+              <p className="ml-3 -mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit velit quos sunt blanditiis quae, quod consectetur.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ...Review Section end... */}
+      <Product />
     </section>
   );
 }

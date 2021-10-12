@@ -1,13 +1,15 @@
 .ProductDetails {
- 
+ width: 100%;
+ height: auto;
 }
 
 .Image {
-  width: 400px;
+  width: 80%;
   height: 400px;
   border-radius: 3px;
   border: 1px solid greenyellow;
 }
+
 
 .Icon {
   color: gold;
@@ -42,4 +44,8 @@
 .AddToWishList:hover {
   color: black;
   background-color: rgb(243, 219, 0);
+}
+
+.ReviewImage {
+  border-radius: 50px;
 }
