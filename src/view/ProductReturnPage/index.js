@@ -6,7 +6,7 @@ const ProductReturnPage = () => {
             <h1 className="text-4xl leading-none">Product Return</h1>
             <section className="mx-40">
                 <div className="leading-loose">
-                    <form className="max-w-xl m-4 p-10 bg-white rounded shadow-xl">
+                    <form className="max-w-4xl p-10 bg-white rounded shadow-xl">
                         <p className="text-gray-800 font-medium">Customer information</p>
                         <div className="">
                             <label className="block text-sm text-gray-00" >Name</label>
