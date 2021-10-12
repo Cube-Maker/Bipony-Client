@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Makeup from "../ProductDetails/productDetails.module.css";
 
 import ReactImageZoom from 'react-image-zoom';
-
 const props = { width: 400, height: 400, zoomWidth: 500, img: "https://i.ibb.co/xhHdWgK/17.jpg" };
 
 const data = [
