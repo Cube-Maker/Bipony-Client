@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Makeup from "../ProductDetails/productDetails.module.css";
 import Image from 'next/image'
 import Image1 from './1.jpg'
-import Product from '../HomePage/component/Product/Product'
 
 import ReactImageZoom from 'react-image-zoom';
 const props = { width: 500, height: 400, zoomWidth: 500, img: "https://i.ibb.co/xhHdWgK/17.jpg" };
@@ -252,7 +251,6 @@ const ProductDetails = () => {
         </div>
       </section>
       {/* ...Review Section end... */}
-      <Product />
     </section>
   );
 }

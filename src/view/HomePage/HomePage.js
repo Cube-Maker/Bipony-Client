@@ -4,12 +4,12 @@ import SubNavigation from "./component/SubNavigation/SubNavigation";
 import Product from "./component/Product/Product";
 
 
-const HomePage = ({ products }) => {
+const HomePage = ({ products, data }) => {
   return (
     <>
       <SubNavigation />
       <Banner />
-      <Product />
+      <Product data={data} />
       <ShopCards />
     </>
   );
