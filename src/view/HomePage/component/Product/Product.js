@@ -2,7 +2,7 @@ import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import style from "./product.module.css";
 
-const data =[
+const data = [
   {
     "id": 1,
     "title": "A5 Pro",
@@ -337,30 +337,15 @@ const Product = () => {
         </h3>
         {/* Mobile Cards */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-          {data
-            .filter((product) => product.category === "mobile")
-            .map((product) => (
-              <div
-                key="product.id"
-                className="text-center border-solid border-black m-2  rounded bg-white">
-                <img className="p-6" src={product.image} />
-                <div className="bg-gray-200 p-2">
-                  <h4 className="text-bold text-xl">{product.title}</h4>
-                  <span className="flex justify-evenly">
-                    <div>
-                      <h4>${product.price}</h4>
-                    </div>
-                    <div>
-                      <a href="#">
-                        <FontAwesomeIcon
-                          className={style.icon}
-                          icon={faCartPlus} />
-                      </a>
-                    </div>
-                  </span>
+          {
+            data.filter((products) => products.category === "mobile")
+              .map((product) => (
+                <div key="product.id" className="text-center border-solid border-black m-2  rounded bg-white">
+                  <img src={product.image} />
+                  <p className="font-bold text-lg text-center mt-5">{product.title}</p>
                 </div>
-              </div>
-            ))}
+              ))
+          }
         </div>
       </div>
       {/* Laptops */}
