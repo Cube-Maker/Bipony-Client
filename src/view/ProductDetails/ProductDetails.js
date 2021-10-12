@@ -60,7 +60,7 @@ const ProductDetails = () => {
         {/* ...Product Content Start... */}
         <div>
           {/* Title */}
-          <p className="font-bold text-2xl mb-2">Realme 3 pro</p>
+          <p className="font-bold text-2xl mb-2 mt-5">Realme 3 pro</p>
           {/* Shop Name */}
           <p className="mb-1">Bipony shop</p>
           {/* Review */}
@@ -84,7 +84,7 @@ const ProductDetails = () => {
           <p className="font-bold text-xl text-green-700">$199</p>
           {/* Buttons */}
           <div className="flex">
-            <button className={Makeup.AddToCartButton}><FontAwesomeIcon icon={faCartPlus} /> Add to cart</button>
+            <button className={Makeup.AddToCartButton}><FontAwesomeIcon icon={faCartPlus} /> Add to Cart</button>
             <button className={Makeup.AddToWishList}><FontAwesomeIcon icon={faHeart} /> Add to Wishlist</button>
           </div>
         </div>
