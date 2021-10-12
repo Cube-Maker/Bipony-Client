@@ -37,7 +37,7 @@ export default function SellerInfo() {
             .then(data => {
                 if (data) {
                     alert('service added succes')
-                    router.push('/shop')
+                    router.push('/seller-login')
                     console.log(data)
                 }
             })
@@ -133,7 +133,7 @@ export default function SellerInfo() {
                     </form>
                     <div className="text-grey-dark mt-6">
                         Already have an account?
-                        <Link className="ms-2" href="/login">
+                        <Link className="ms-2" href="/seller-login">
                             <a>Login</a>
                         </Link>
                     </div>
