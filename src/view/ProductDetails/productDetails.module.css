@@ -10,6 +10,9 @@
   border: 1px solid greenyellow;
 }
 
+.ProductContent {
+  margin-top: 20px;
+}
 
 .Icon {
   color: gold;
@@ -48,4 +51,10 @@
 
 .ReviewImage {
   border-radius: 50px;
+}
+
+@media (max-width: 750px) {
+  .Image{
+    width: 100%;
+  }
 }
