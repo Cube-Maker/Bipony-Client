@@ -2,7 +2,7 @@ import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import style from "./product.module.css";
 
-const data =[
+const data = [
   {
     "id": 1,
     "title": "A5 Pro",
