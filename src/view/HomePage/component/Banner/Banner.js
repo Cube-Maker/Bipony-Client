@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Banner.module.css'
 import '../../../../../node_modules/antd/dist/antd.min.css'
 import { Carousel } from 'antd'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBaby, faBiking, faBook, faFootballBall, faLaptop, faMobile, faPhone, faPhoneAlt, faShoppingBasket, faTshirt, faTv } from '@fortawesome/free-solid-svg-icons';
 
 const Banner = () => {
     return (
@@ -11,15 +13,15 @@ const Banner = () => {
                 <section className={styles.Category}>
                     {/* List */}
                     <ul>
-                        <li>Mobile</li>
-                        <li>Bicks</li>
-                        <li>Laptop</li>
-                        <li>Smart TV</li>
-                        <li>Groceries</li>
-                        <li>Sports</li>
-                        <li>Fasion</li>
-                        <li>Baby</li>
-                        <li>Books</li>
+                        <li><FontAwesomeIcon icon={faMobile} className={styles.CategoryIcons} /> Mobile</li>
+                        <li><FontAwesomeIcon icon={faBiking} className={styles.CategoryIcons} /> Bicks</li>
+                        <li><FontAwesomeIcon icon={faLaptop} className={styles.CategoryIcons} /> Laptop</li>
+                        <li><FontAwesomeIcon icon={faTv} className={styles.CategoryIcons} /> Smart TV</li>
+                        <li><FontAwesomeIcon icon={faShoppingBasket} className={styles.CategoryIcons} /> Groceries</li>
+                        <li><FontAwesomeIcon icon={faFootballBall} className={styles.CategoryIcons} /> Sports</li>
+                        <li><FontAwesomeIcon icon={faTshirt} className={styles.CategoryIcons} /> Fasion</li>
+                        <li><FontAwesomeIcon icon={faBaby} className={styles.CategoryIcons} /> Baby</li>
+                        <li><FontAwesomeIcon icon={faBook} className={styles.CategoryIcons} /> Books</li>
                     </ul>
                 </section>
                 {/* Banner Slider Start*/}

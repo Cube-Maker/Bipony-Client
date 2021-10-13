@@ -13,6 +13,11 @@
     width: 20%;
 } 
 
+.CategoryIcons {
+    color: rgb(118, 182, 0);
+}
+
+
 .Category ul li {
     width: 80%;
     font-size: 16px;
@@ -24,12 +29,14 @@
     padding-bottom: 5px;
     padding-left: 10px;
     cursor: pointer;
+    color: rgb(99, 99, 99);
     border-left: 3px solid greenyellow;
 }
 
 .Category ul li:hover{
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
+    color: rgb(0, 0, 0);
     background: rgb(220, 255, 166);
 }
 
@@ -137,17 +144,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:1000px) {
     .Banner_Sliders{
         width: 96%;
@@ -160,4 +156,21 @@
         display: none;
     }
     
+}
+
+@media (max-width:800px) {
+    .Banner {
+        width: 100%;
+        margin: 10px 0px;
+        height: 250px!important;
+    }
+    .Banner_Slide1{
+        height: 250px!important;
+    }
+    .Banner_Slide2{
+        height: 250px!important;
+    }
+    .Banner_Slide3{
+        height: 250px!important;
+    }
 }
