@@ -1,16 +1,19 @@
 .ProductDetails {
-  width: 90%;
- display: flex;
- justify-content: center;
+ width: 100%;
+ height: auto;
 }
 
 .Image {
-  width: 400px;
+  width: 80%;
   height: 400px;
   border-radius: 3px;
   display: flex;
   justify-content: center;
   border: 1px solid greenyellow;
+}
+
+.ProductContent {
+  margin-top: 20px;
 }
 
 .Icon {
@@ -46,4 +49,14 @@
 .AddToWishList:hover {
   color: black;
   background-color: rgb(243, 219, 0);
+}
+
+.ReviewImage {
+  border-radius: 50px;
+}
+
+@media (max-width: 750px) {
+  .Image{
+    width: 100%;
+  }
 }

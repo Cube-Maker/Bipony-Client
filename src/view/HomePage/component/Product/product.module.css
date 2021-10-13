@@ -14,3 +14,22 @@
 .maxWidth {
   max-width: 96;
 }
+
+.ProductDiscount {
+  height: 23px;
+  font-weight: bold;
+  padding: 0px 10px;
+  color: white;
+  margin-top: 3px;
+  background-color: orangered;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+.AddtoCartIcon {
+  font-size: 24px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 2px;
+  color: orangered;
+}
