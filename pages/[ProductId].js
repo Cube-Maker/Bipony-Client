@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router'
 import ProductDetails from '../src/view/ProductDetails/ProductDetails';
+import Layout from '../src/layout/Layout';
 
 
 const data = [
@@ -333,9 +334,9 @@ const ProductId = () => {
     const { ProductId } = router.query
 
     return (
-        <div>
+        <Layout>
             <ProductDetails productId={ProductId} />
-        </div>
+        </Layout>
     );
 };
 

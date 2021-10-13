@@ -124,8 +124,13 @@ const Product = ({ data }) => {
                 <Link href={`/${product.id}`} >
                   <div
                     key="product.id"
-                    className="text-center border-solid border-black m-2  rounded bg-white"
-                  >
+                    className="
+                    text-center 
+                    border-solid 
+                    border-black 
+                    m-2  
+                    rounded 
+                    bg-white">
                     <img width="300" className="p-6" src={product.image} />
                     <div className="bg-gray-200 p-2">
                       <h4 className="text-bold text-xl">{product.title}</h4>

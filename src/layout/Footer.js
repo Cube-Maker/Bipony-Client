@@ -11,6 +11,7 @@ export default function Footer() {
                 <div className={styles.grid_footer}>
                     <div className={styles.footer_logo}>
                         <h2>Bipony</h2>
+                        {/* Social Icons */}
                         <div className={styles.socialIcons}>
                             <div className={styles.socialIcon}>
                                 <FontAwesomeIcon className={styles.icon} icon={faFacebookF} />
@@ -28,6 +29,7 @@ export default function Footer() {
                             <p>Phone: 415-201-6370 Email: hello@bipony.com</p>
                         </address>
                     </div>
+                    {/* Other links */}
                     <div className={styles.footer_links}>
                         <p className={styles.footer_heading}>Get to Know us</p>
                         <nav className={styles.footer_link}>

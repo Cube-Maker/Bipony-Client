@@ -20,12 +20,13 @@
     font-size: 56px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #A393C8;
+    color: greenyellow;
 }
 
 .footer_links .footer_heading {
     font-size: 22px;
     font-weight: 500;
+    margin-top: 20px;
 }
 
 .footer_heading {
@@ -51,18 +52,20 @@
 }
 
 .socialIcon {
-    background-color: #BAAED5;
+    background-color: rgba(172, 255, 47, 0.603);
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
+    color: rgb(255, 255, 255);
     transition: all .4s;
 }
 
 .socialIcon:hover {
-    background-color: #A393C8;
+    background-color: greenyellow;
+    color: black;
     transform: rotate(360deg);
 }
 

@@ -4,8 +4,8 @@
 .header {
     /* background-image: linear-gradient(to right, rgba(255, 119, 48, .5), rgba(255, 185, 112, .5)); */
     /* background-image: linear-gradient(to right, #ff7730, #ffb970); */
-    background-color: greenyellow;
-    color: rgb(59, 59, 59);;
+    background-color: rgb(108, 180, 0);
+    color: rgb(255, 255, 255);;
     padding: 20px 0;
     box-shadow: 2px 4px 3px rgba(0, 0, 0, .1);
 }
@@ -56,7 +56,13 @@
 .icon {
     font-size: 32px;
     cursor: pointer;
-    color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    transition: all .3s;
+
+}
+
+.icon:hover {
+    transform:rotate(360deg);
 }
 
 .loginBtn {
@@ -70,8 +76,10 @@
 .logoContainer {
     display: flex;
     align-items: center;
-    font-size: 22px;
+    font-size: 26px;
+    letter-spacing: 2px;
     font-weight: 700;
+    cursor: pointer;
     text-transform: uppercase;
 }
 
