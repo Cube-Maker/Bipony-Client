@@ -1,15 +1,11 @@
+import {
+  faCartPlus, faSearch, faSignInAlt, faUserCircle
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from 'next/link';
 import React from "react";
 import styles from "./Header.module.css";
 
-import Link from 'next/link'
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCartPlus,
-  faUserCircle,
-  faSignInAlt,
-  faSearch,
-} from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
@@ -37,7 +33,11 @@ export default function Header() {
             <FontAwesomeIcon className={styles.icon} icon={faUserCircle} />
           </div>
           <div className={styles.headerCart}>
-            <FontAwesomeIcon className={styles.icon} icon={faCartPlus} />
+            <Link href="/cart">
+              <a>
+                <FontAwesomeIcon className={styles.icon} icon={faCartPlus} />
+              </a>
+              </Link>
           </div>
           <div className={styles.headerLogin}>
             <FontAwesomeIcon className={styles.icon} icon={faSignInAlt} />
