@@ -3,6 +3,18 @@ import { useRouter } from 'next/router'
 import ProductDetails from '../src/view/ProductDetails/ProductDetails';
 import Layout from '../src/layout/Layout';
 
+const ProductId = () => {
+    const router = useRouter()
+
+    return (
+        <Layout>
+            <ProductDetails productId={router.query.ProductId ?? 1} />
+        </Layout>
+    );
+};
+
+export default ProductId;
+
 
 const data = [
     {
@@ -328,16 +340,3 @@ const data = [
         "image": "https://i.ibb.co/KzYkgH1/honda-CBR150.jpg"
     }
 ]
-
-const ProductId = () => {
-    const router = useRouter()
-    const { ProductId } = router.query
-
-    return (
-        <Layout>
-            <ProductDetails productId={ProductId} />
-        </Layout>
-    );
-};
-
-export default ProductId;

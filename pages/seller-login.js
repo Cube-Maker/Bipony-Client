@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { useForm } from 'react-hook-form';
 
-const sellerLogin = () => {
+const SellerLogin = () => {
     const { register, handleSubmit, errors, reset } = useForm();
     const router = useRouter();
     function onSubmitForm(values) {
@@ -92,4 +92,4 @@ const sellerLogin = () => {
     );
 };
 
-export default sellerLogin;
+export default SellerLogin;
