@@ -32,7 +32,7 @@ const ProductReturnPage = () => {
                             <label className="hidden block text-sm text-gray-600">Zip</label>
                             <input className="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_email" name="cus_email" type="text" required placeholder="Zip" aria-label="Zip" />
                         </div>
-                        <p className="mt-4 text-gray-800 font-medium">Order information</p>
+                        <p className="mt-2 text-gray-800 font-medium">Order information</p>
                         <div className="">
                             <label className="block text-sm text-gray-600">Order ID</label>
                             <input className="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_name" name="cus_name" type="text" required placeholder="Enter order ID here" aria-label="Order ID" />
