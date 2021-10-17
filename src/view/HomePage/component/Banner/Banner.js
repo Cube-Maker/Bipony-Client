@@ -26,7 +26,7 @@ const Banner = () => {
                 </section>
                 {/* Banner Slider Start*/}
                 <section className={styles.Banner_Sliders}>
-                    <Carousel autoplay >
+                    <Carousel autoplay>
                         {/* Slide 1 */}
                         <div className={styles.Banner_Slide1}>
                             <div className={styles.BannerContent}>
