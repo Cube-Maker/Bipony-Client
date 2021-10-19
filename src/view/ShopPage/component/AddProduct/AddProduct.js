@@ -20,7 +20,7 @@ export default function AddProduct() {
         }
         console.log(formData)
 
-        fetch('http://localhost:4000/api/vendorProductPost', {
+        fetch('https://morning-castle-44437.herokuapp.com/api/vendorProductPost', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
